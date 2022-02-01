@@ -1,0 +1,232 @@
+/**
+ * MTS Simple Booking 管理操作画面のスタイル
+ *
+ * @Filename	mtssb-admin.css
+ * @Author		S.Hayashi
+ *
+ * Updated to 1.1.0 on 2012-10-11
+ */
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#schedule-select-article select {
+	margin-right: 1em;
+}
+
+.schedule-box {
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin: 3px;
+	padding: 3px;
+}
+
+.schedule-box input[type="text"] {
+	width: 95%;
+}
+
+.schedule-box.column-title {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	height: 20px;
+}
+
+.schedule-box.column-title input {
+	margin-left: 5px;
+	margin-bottom: 7px;
+}
+
+.schedule-box .schedule-day {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.schedule-box.no-day {
+	background-color: #eeeeee;
+}
+
+.schedule-box .schedule-open {
+	margin: 3px;
+}
+
+.schedule-box .schedule-open.open {
+	background-color: yellow;
+}
+
+.schedule-box .schedule-class {
+	margin: 3px 0;
+}
+
+.column-title.sun,
+.schedule-day.sun,
+.calendar-day.sun {
+	color: red;
+}
+
+.column-title.sat,
+.schedule-day.sat,
+.calendar-day.sat {
+	color: blue;
+}
+
+.schedule-footer {
+	margin: 1em;
+}
+
+.reservation-table table {
+	border-spacing: 6px;
+	width: 95%;
+}
+
+.reservation-table .column-title {
+	font-size: 16px;
+	font-weight: bold;
+	height: 20px;
+}
+
+.reservation-table th,
+.reservation-table td {
+	border-right: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	width: 14%;
+	padding: 3px;
+}
+
+.calendar-box .calendar-day {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.calendar-box.no-day {
+	background-color: #eeeeee;
+}
+
+.calendar-box .closed {
+	color: #bbbbbb;
+}
+
+/*
+.calendar-box .reservation-view {
+	float: right;
+}
+*/
+
+.calendar-box .item-name {
+	float: left;
+}
+
+.calendar-box .item-count {
+	float: right;
+}
+
+/* Calendar 指定日付の予約表示 */
+.article-time {
+	margin-left: 0.6rem;
+}
+
+.article-time .booking-time {
+	float: left;
+	padding-top: 0.3rem;
+	width: 2.4rem;
+}
+
+.article-time .booking-number {
+	float: left;
+}
+
+.article-time .booking-number-adjusted {
+	float: left;
+	margin-left: 0.2rem;
+	padding-top: 0.3rem;
+}
+
+.article-time .booking-each {
+	float: left;
+	padding-top: 0.3rem;
+}
+
+.article-time .client-name {
+	float: left;
+	margin-left: 0.3rem;
+}
+
+.article-each .booking-adjustment {
+	margin: 0.6rem;
+}
+
+/* Calendar 指定予約詳細表示 */
+.booking-detail .number-person {
+	float: left;
+	text-align: center;
+	width: 60px;
+}
+
+/* Booking List */
+#booking-list #booking_id {
+	width: 13%;
+}
+#booking-list #confirmed {
+	width: 60px;
+}
+
+#booking-list #name {
+	width: 17%;
+}
+
+#booking-list #booking_time {
+	width: 15%;
+}
+
+#booking-list #number {
+	width: 50px;
+}
+
+#booking-list #created {
+	width: 120px;
+}
+
+/* 予約の追加・編集 */
+input.mts-small {
+	width: 30%;
+}
+
+input.mts-middle {
+	width: 50%;
+}
+
+input.mts-fat,
+textarea.mts-fat {
+	width: 95%;
+}
+
+/* オプション設定 */
+#field-item-table {
+	border: 1px solid #aaaaaa;
+	width: 97%;
+}
+
+#field-item-table .field-item-key,
+#field-item-table .field-item-label {
+	font-weight: normal;
+	width: 40%;
+}
+
+#field-item-action {
+	margin: 0.5em 0;
+}
+
+.field-button {
+	padding: 0 0.2em;
+}
+
+/* WordPress 3.4 以前との調整 */
+#post-body .misc-pub-section {
+	max-width: none;
+}

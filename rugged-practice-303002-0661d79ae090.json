@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rugged-practice-303002",
+  "private_key_id": "0661d79ae0900c4a22a5fc773e537c27530367a2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCUjLM0hrf8eUkk\ng1+tVW6avQzTC9vTzwwBVrFbYpdfyDOh9Ejmq7tzAsBXtPT+l69vHdnxyGTlQvpO\nVU4Vh4WuRvmctlt4QYcxPaIojN3f//Y6jan7S+I+9C3MzbtwFSV1TdD2lNyveQeb\nwgEAn6LmAKnw0aYoZh6LtQFs9PB6nOhYLLqrpqL11Ru10HK3oWBunjQdC8yYeW/9\nfTvqparwh1zogjc6kgU7Zrm6J83j1mk07DBs+S10P58+4tW6XS2JZzOwzfwsVHir\n5f+QS5dQWwwuAIqSwCbai528lvsxScNpiEnI/+oGzaXjCUKl1ptYdkmdAmKByI1g\nuiw6Bn+ZAgMBAAECggEADIMNVQ9Dz/AnSPwHwwG/HyltOxl0mpKF4Fb8+UWEmnyy\nXKHGwicU0ssYiEqlmAwOqr1I7iSC2wyZKJ/mw8l2aQdxXtG9QpPCX1NhpSi4R3W3\nt5bXCmOJ2uOWN/ncH8SoMwkq4JoJPH5lNalRjEvl3JmRtsbxx9VSHVJRnGvFFY6g\n5iAheIA4xz+2gcSjjoFXW036rXPAPVXSfkT09cKR/r3yka6OxgZB1ybBeJAfhKaI\nvSqZAj4mDmZZ+I9WqyLr0rPoYNdwRP1pKQmIOsGV8Bg5IWeEKpHQoY8svxM/+5/k\nRbwTUQKIsBKZ0zOlDpB8Xz6TJVF/1ZR0bJT9ZDTlAQKBgQDIn+UILuchvXbBRMkg\n4OziAL56AzEc/MblTsYdX7zrVH5HDn+Fas5RSnFAgTMJWqZJiBoPrWRad/Ga1Eu7\n9kGLUDFDBADww0Pzt1Kh7O046dCfVt3VA6Xr6mi0NN0qMqZoRmGVrLP0TstYYikw\nOW96R5zrNxQaGeZpOTJyFzzdbQKBgQC9jTHTenGIS0R8gZQO6QdUSgJTK7xerTmZ\nVVOJo8n3M2l9AsUVxeKA3IaC5oRYuGWrvzd/3+YP/fSV54+3VRnTrbjD7tmbh5hl\nfbnkfRHoVwscQTc6SRMIUtXR3c0nH0sPMH3X3PPzXy8bhLPoxHJ+kvBCwzYFS3zC\n5ol9muPrXQKBgB9CImoy/JoaLf2Q3RF9WgsgeI0EIEvW6pphuqZq+0FjScWCccX0\nzS6HPbwCJVSIxi3gwca9ikw6Me+gsigYB0BQf0xkvEzG77hyULKf+poKfBHHdAqz\nZc+rFyM0tVzUxW6rwJqUbPlcqXwc1zQHTuIrdDyFuWETtf2hBsYV7srFAoGAXcy0\nPnGWIxsUDgTVbrd0MArbsaqv8a4JFc66ox8RP6oKZplrTAX7u0blrXtDPOArN91N\nKpNytrE2SsQnQ1Lyj+SkzRiySJvGF1srFV2q8e25Csde/BHTQEg1lUAMWHLM4vxd\nGeg2NFYC6rw1h1dHTUmLaY5OejpLx+rrWOPAK+UCgYEAi+7P+hSnWm8yJos48YL0\nEEuQD/l2XJHimODsAy5hI5EmeJa6TW528J2CcEKA3Io7kK+Uyw8knmdCS8F/NPEj\nHCOciScROsAKfeKqEFPWz6/6pHs0l+OGLcaUkkzfjiDl9QMweC9AJwP2MKXu5/aO\nDWVHpdJnK47vUk9+kE2Hokg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheet-test@rugged-practice-303002.iam.gserviceaccount.com",
+  "client_id": "103457924623537312084",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheet-test%40rugged-practice-303002.iam.gserviceaccount.com"
+}
